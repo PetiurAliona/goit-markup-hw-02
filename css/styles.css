@@ -6,7 +6,6 @@
   --primary-bg: #e5e5e5;
   --secondary-bg: #f5f4fa;
   --dark-bg: #2f303a;
-  --header-color: #ececec;
 }
 
 body {
@@ -15,7 +14,7 @@ body {
 }
 
 header {
-  background-color: var(--header-color);
+  background-color: var(--white-color-text);
 }
 
 .logo {
