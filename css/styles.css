@@ -2,11 +2,20 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  --white-color-text: #ffffff;
+  --primary-bg: #e5e5e5;
+  --secondary-bg: #f5f4fa;
+  --dark-bg: #2f303a;
+  --header-color: #ececec;
 }
 
 body {
-  background-color: #e5e5e5;
+  background-color: var(--primary-bg);
   color: var(--title-text-color);
+}
+
+header {
+  background-color: var(--header-color);
 }
 
 .logo {
@@ -22,6 +31,9 @@ span {
 .site-nav a {
   color: var(--title-text-color);
 }
+.site-nav .current {
+  color: var(--accent-color);
+}
 
 .site-nav a:hover,
 .site-nav a:focus {
@@ -36,6 +48,10 @@ span {
 .contacts a:focus {
   color: var(--accent-color);
 }
+.decision {
+  background-color: var(--dark-bg);
+  color: var(--white-color-text);
+}
 
 .section {
   color: var(--primary-text-color);
@@ -44,6 +60,29 @@ span {
 .section-title {
   color: var(--title-text-color);
 }
+
+.button {
+  color: var(--white-color-text);
+  background-color: var(--accent-color);
+}
+
+.our-team {
+  background-color: var(--secondary-bg);
+}
+
+.footer {
+  background-color: var(--dark-bg);
+  color: var(--white-color-text);
+}
+
+.contact-footer {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.logo-footer {
+  color: var(--white-color-text);
+}
+
 /* цвет текста в ли под ПУнктуал #757575 */
 /* акцент #2196f3 */
 /* основной #212121 */
