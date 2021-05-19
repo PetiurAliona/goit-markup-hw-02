@@ -1,0 +1,50 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: #e5e5e5;
+  color: var(--title-text-color);
+}
+
+.logo {
+  color: #000000;
+}
+span {
+  color: var(--accent-color);
+}
+.list {
+  list-style: none;
+}
+
+.site-nav a {
+  color: var(--title-text-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-color);
+}
+/* Контакты */
+.contacts a {
+  color: var(--primary-text-color);
+}
+
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--accent-color);
+}
+
+.section {
+  color: var(--primary-text-color);
+}
+
+.section-title {
+  color: var(--title-text-color);
+}
+/* цвет текста в ли под ПУнктуал #757575 */
+/* акцент #2196f3 */
+/* основной #212121 */
+/* background-color: #ffffff; шапки */
