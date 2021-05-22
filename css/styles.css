@@ -12,6 +12,8 @@ body {
   background-color: var(--primary-bg);
   color: var(--title-text-color);
   font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 header {
@@ -21,6 +23,9 @@ header {
 .logo {
   color: #000000;
   font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
 }
 
 span {
@@ -32,7 +37,14 @@ span {
 
 .site-nav a {
   color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
+
 .site-nav .current {
   color: var(--accent-color);
 }
@@ -44,6 +56,11 @@ span {
 /* Контакты */
 .contacts a {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .contacts a:hover,
@@ -53,23 +70,67 @@ span {
 .decision {
   background-color: var(--dark-bg);
   color: var(--white-color-text);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .section {
   color: var(--primary-text-color);
 }
 
+.section-title1 {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.section p {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
 .section-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 .button {
   color: var(--white-color-text);
   background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
 .our-team {
   background-color: var(--secondary-bg);
+}
+.name {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.our-team p {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
 
 .footer {
@@ -79,10 +140,18 @@ span {
 
 .contact-footer {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
+/
 }
 
 .logo-footer {
   color: var(--white-color-text);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
 }
 
 /* Portolio */
@@ -90,9 +159,15 @@ span {
 .filter {
   list-style: none;
 }
+
 .button-filter {
   color: var(--title-text-color);
-  background-color: var(--secondary-bg);
+  background-color: var(--secondary-bg);  
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .button-filter:hover,
@@ -100,10 +175,20 @@ span {
   color: var(--white-color-text);
   background-color: var(--accent-color);
 }
-
-a .p-title {
-  color: var(--primary-text-color);
+.examples-title {
+color: var(--title-text-color);
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
 }
+
+.p-title {
+  color: var(--primary-text-color);
+  font-size: 16px; 
+  line-height: 1.87;
+  }
+
 /* цвет текста в ли под ПУнктуал #757575 */
 /* акцент #2196f3 */
 /* основной #212121 */
