@@ -11,6 +11,7 @@
 body {
   background-color: var(--primary-bg);
   color: var(--title-text-color);
+  font-family: Roboto, sans-serif;
 }
 
 header {
@@ -19,7 +20,9 @@ header {
 
 .logo {
   color: #000000;
+  font-family: Raleway, sans-serif;
 }
+
 span {
   color: var(--accent-color);
 }
