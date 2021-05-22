@@ -83,6 +83,7 @@ span {
 }
 
 /* Portolio */
+
 .filter {
   list-style: none;
 }
@@ -95,6 +96,10 @@ span {
 .button-filter:focus {
   color: var(--white-color-text);
   background-color: var(--accent-color);
+}
+
+a .p-title {
+  color: var(--primary-text-color);
 }
 /* цвет текста в ли под ПУнктуал #757575 */
 /* акцент #2196f3 */
