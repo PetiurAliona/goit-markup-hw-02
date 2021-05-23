@@ -35,6 +35,11 @@ span {
   list-style: none;
 }
 
+.list a {
+  list-style: none;
+  text-decoration: none;
+}
+
 .site-nav a {
   color: var(--title-text-color);
   font-style: normal;
@@ -138,12 +143,16 @@ span {
   color: var(--white-color-text);
 }
 
+address {
+  text-decoration: none;
+  font-style: normal;
+}
+
 .contact-footer {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-size: 14px;
   line-height: 1.71;
-/
 }
 
 .logo-footer {
@@ -162,7 +171,7 @@ span {
 
 .button-filter {
   color: var(--title-text-color);
-  background-color: var(--secondary-bg);  
+  background-color: var(--secondary-bg);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -176,18 +185,18 @@ span {
   background-color: var(--accent-color);
 }
 .examples-title {
-color: var(--title-text-color);
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .p-title {
   color: var(--primary-text-color);
-  font-size: 16px; 
+  font-size: 16px;
   line-height: 1.87;
-  }
+}
 
 /* цвет текста в ли под ПУнктуал #757575 */
 /* акцент #2196f3 */
